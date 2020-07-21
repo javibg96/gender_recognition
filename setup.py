@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 import os
+import sys
 
 setup_packages = [f"gender_recognition.{package}" for package in find_packages(where=os.path.join(os.path.dirname(__file__), 'src'))]
 setup_packages.append("gender_recognition")
@@ -9,7 +10,7 @@ with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
 
 setup(
     name='gender_recognition',
-    version="1.3",
+    version="1.0",
     packages=setup_packages,
     include_package_data=True,
     package_dir={"gender_recognition": "src"},
