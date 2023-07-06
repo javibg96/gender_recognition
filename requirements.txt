@@ -4,7 +4,7 @@ imutils==0.5.3
 numpy==1.18.2
 opencv-python==4.2.0.*
 matplotlib==3.2.1
-scipy==1.4.1
+scipy==1.10.0
 cvlib>=0.2.5
 setuptools~=49.2.0
 pyinstaller
